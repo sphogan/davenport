@@ -1,4 +1,4 @@
-package com.oshkindo.views;
+package rocks.davenport.views;
 
 import com.fizzed.rocker.RockerModel;
 import com.fizzed.rocker.runtime.ArrayOfByteArraysOutput;
