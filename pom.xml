@@ -14,16 +14,26 @@
             <artifactId>dropwizard-guicier</artifactId>
             <version>1.0.6.0</version>
         </dependency>
-
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.2.10.Final</version>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-jdbi</artifactId>
+            <version>1.0.6</version>
         </dependency>
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>5.2.10.Final</version>
+            <groupId>io.dropwizard-bundles</groupId>
+            <artifactId>dropwizard-configurable-assets-bundle</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>stringtemplate</artifactId>
+            <version>3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hubspot.rosetta</groupId>
+            <artifactId>RosettaJdbi</artifactId>
+            <version>3.11.4</version>
         </dependency>
         <dependency>
             <groupId>com.google.inject.extensions</groupId>
@@ -36,27 +46,15 @@
             <version>42.0.0</version>
         </dependency>
 
-
-        <dependency>
-            <groupId>com.querydsl</groupId>
-            <artifactId>querydsl-jpa</artifactId>
-            <version>4.1.4</version>
-        </dependency>
-        <dependency>
-            <groupId>com.querydsl</groupId>
-            <artifactId>querydsl-apt</artifactId>
-            <version>4.1.4</version>
-        </dependency>
-
         <dependency>
             <groupId>com.fizzed</groupId>
             <artifactId>rocker-runtime</artifactId>
-            <version>0.18.0</version>
+            <version>0.20.0</version>
         </dependency>
         <dependency>
             <groupId>com.fizzed</groupId>
             <artifactId>rocker-compiler</artifactId>
-            <version>0.18.0</version>
+            <version>0.20.0</version>
         </dependency>
         <dependency>
             <groupId>org.immutables</groupId>
@@ -80,7 +78,7 @@
             <plugin>
                 <groupId>com.fizzed</groupId>
                 <artifactId>rocker-maven-plugin</artifactId>
-                <version>0.18.0</version>
+                <version>0.20.0</version>
                 <executions>
                     <execution>
                         <id>generate-rocker-templates</id>
